@@ -205,4 +205,20 @@ Once everything is set, Bloom can access the files
 ![AD Installation](./Images/TS4,1.PNG)
 
 
+# Skills Gained
+
+By completing this project, we developed practical experience in:
+
+* Installing and configuring Active Directory Domain Services.
+* Creating and managing domains and Organizational Units.
+* Administering user accounts.
+* Applying and managing Group Policy Objects.
+* Understanding centralized authentication and authorization.
+* Troubleshooting common Active Directory issues.
+
+# Conclusion
+
+This project provided a solid introduction to Active Directory administration and demonstrated how organizations use AD to efficiently manage users, computers, and security policies from a centralized location. Through hands-on configuration and troubleshooting, we gained practical skills that are essential for Windows Server administration and enterprise IT environments.
+
+Overall, this project established a strong foundation for more advanced topics such as group management, DNS integration, roaming profiles, delegation of administrative tasks, PowerShell automation, and Active Directory security best practices.
 
