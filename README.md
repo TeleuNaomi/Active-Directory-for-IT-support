@@ -1,7 +1,7 @@
 # Active-Directory-for-IT-support
 An extensive overview on common Helpdesk and IT support processes involving Active Directory.
 
-# Section 1: Installation
+### Section 1: Installation
 - Downloading AD/DC
 - Installing
 - Creating Organisational Units
@@ -9,7 +9,7 @@ An extensive overview on common Helpdesk and IT support processes involving Acti
 - Onboarding and user creation
 - Adding Users to Groups
 
-# Section 2: Troubleshooting
+### Section 2: Troubleshooting
  - User lockouts
  - Account disabled
  - Account Expired
@@ -18,7 +18,7 @@ An extensive overview on common Helpdesk and IT support processes involving Acti
 ### Active Directory Definition : 
 A service/database that records information on users, applications, groups, and other network devices. It's used for centralized monitoring through a domain controller.
 
-### Installation 
+# Installation 
 - Download the ISO file of Windows Server 2022. (You will have to create an account. The server is free for 180 days).
 Mount the image on the VM and install WinServer.
 
@@ -29,7 +29,7 @@ Select "your server"
 Install "Active Directory Domain Services"
 Complete the installation wizard
 
-![AD Installation](./Images/ad-cd.PNG) 
+![AD Installation](./Images/AD-DC.PNG) 
 
 ### Promote the server to a Domain Controller:
 
@@ -52,7 +52,7 @@ Repeat the process for the others
 
 ![AD Installation](./Images/AU3.PNG)
 
-### Setting password policy
+## Setting password policy
 - AD server manager > Tools > Group Policy Manage
 - Right click " Default domain Policy" > Edit
 A new window appears showing computer configurations
@@ -62,14 +62,14 @@ A new window appears showing computer configurations
 ![AD Installation](./Images/PP.PNG)
 
 
-  #### Account Lockout policy
+  ## Account Lockout policy
 Still on computer configurations:
 - Computer configuration > Windows Settings > Security Settings > Account Lockout Policies
 
 ![AD Installation](./Images/AD5.PNG)
 
 
-### Screenlock policy
+## Screenlock policy
  Still on computer configurations:
 - Computer configuration > Windows Settings > Security Settings > Local policies > Security options.
 
@@ -91,12 +91,16 @@ At the end, you can have an overview of all the passwords you've set
 
 ![AD Installation](./Images/A,4.PNG)
 
+
+# Section 2: Troubleshooting
+
 ### 1)  Onboarding and User creation 
 I am going to create 4 users for each organisational unit + one Service Account
-HR > Orlando Bloom
-IT > Jenny Peterson
-CEO > James Kay
-Employee > Lisa Klyde
+
+* HR > Orlando Bloom
+* IT > Jenny Peterson
+* CEO > James Kay
+* Employee > Lisa Klyde
 
 ### Creating Lisa Klyde
 
