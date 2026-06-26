@@ -29,7 +29,7 @@ Select "your server"
 Install "Active Directory Domain Services"
 Complete the installation wizard
 
-![AD Installation](./Image/Installation/AD-CD.png) 
+![AD Installation](./Images/AD-CD.PNG) 
 
 ### Promote the server to a Domain Controller:
 
@@ -38,7 +38,7 @@ Select "Promote this server to a domain controller."
 Create a new forest with a domain name of your choice
 Set a password and complete installation (server will restart)
 
-![AD Installation](./Image/AD1.png)
+![AD Installation](./Images/AD1.PNG)
 
 ## Creating an Organizational Unit 
 I will create 4 organisational units: CEO, IT, HR, and Employees
